@@ -12,4 +12,3 @@ Users should go to the [link](https://drive.google.com/file/d/1iMBUW93GWNFJ1oCdH
 
 Users should go to the [link](https://docs.google.com/document/d/13XFxMODXwEjzR5bN4DoEVoqxbckw4DQ7cW2urORSLGs/edit?usp=sharing) and view user manual.
 
-![Thumbnail](https://i.ibb.co/NymXWpM/thumbnail2.png)
