@@ -1,3 +1,14 @@
+# Easy trader user manual
+
+## Introduction
+
+Easy Trader is a mobile application that enables freelancers, affiliate marketers, product manufacturers, and retailers to sell their items easily. It utilizes Square payment API, generative AI (Artificial Intelligence), and other software tools.
+
+## Obtaining mobile application
+
+Users should go to the [link](https://drive.google.com/file/d/1iMBUW93GWNFJ1oCdHRscetgnxr7vUF75/view?usp=sharing) and download it.
+
+
 # Flutter plugin for In-App Payments SDK
 
 [![build](https://github.com/square/in-app-payments-flutter-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/square/in-app-payments-flutter-plugin/actions/workflows/build.yml)
