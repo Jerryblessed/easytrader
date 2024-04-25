@@ -1,0 +1,102 @@
+name: buyer_seller_app
+description: Demonstrates how to use the square_in_app_payments plugin.
+
+version: 1.1.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  timeago: ^3.6.1
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  fluttertoast: ^8.2.4
+  firebase_storage: ^11.6.10
+  flutter_image_slider: ^0.0.2
+  flutter_svg: 
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  url_launcher: ^6.2.5
+  map_launcher: ^3.2.0
+
+  flutter_tts: ^3.2.0
+  flutter_gemini: ^2.0.3
+  loading_animation_widget: ^1.2.1
+  lottie: ^2.7.0
+  flutter_markdown: ^0.6.18+2
+  syncfusion_flutter_pdf: ^25.1.39
+  stability_image_generation: ^0.0.4
+
+  syncfusion_flutter_charts:
+
+  http: 
+  uuid: ^3.0.6
+
+dev_dependencies:
+  square_in_app_payments:
+    path: ../
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/iconCookie.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/icons/
+    - assets/lottie/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Bebas
+      fonts:
+        - asset: assets/fonts/fonts/BebasNeue-Regular.ttf
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/fonts/Lobster-Regular.ttf
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/fonts/Signatra.ttf
+    - family: Varela
+      fonts:
+        - asset: assets/fonts/fonts/VarelaRound-Regular.ttf
+   
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
