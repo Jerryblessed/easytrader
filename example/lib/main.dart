@@ -12,7 +12,7 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  Gemini.init(apiKey: '', enableDebugging: true);
+  Gemini.init(apiKey: 'AIzaSyDDEdN89laTbTO8JEHJULde5fPm-h1GRGY', enableDebugging: true);
 
   runApp(const MyApp());
 }
